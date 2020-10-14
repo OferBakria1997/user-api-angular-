@@ -1,0 +1,5 @@
+<app-details *ngIf="didClickOnCard" [theUserJson]="currClickedUser"></app-details>
+<div id="gallery" style="display:flex; flex-wrap:wrap; justify-content:center;"> 
+   <app-card  *ngFor="let curr of peopleArr; index as i;" [theUserJson]=curr [theIndex]=i> 
+   </app-card>
+ </div>

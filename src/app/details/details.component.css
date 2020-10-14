@@ -1,0 +1,34 @@
+#oneUserDetailsContainer{
+    width: 80%;
+    margin: auto;
+   }
+   
+   #upperUserDetailContainer{
+    justify-content: space-around;
+    align-items: flex-start;
+    display:flex;
+   }
+   
+   .lblUser1 ,.lblUser2{
+    display: block;
+    font-size: 1.5rem;
+   }
+   .lblUser1{
+    margin-top: 10px;
+   }
+   .lblUser2{
+    margin-top: 2px;
+   }
+   
+   #closeUserDetailsDiv{
+    text-align: right;
+   }
+   
+   #closeBtn{
+    font-size: 2rem;
+   }
+   
+   #userImage{
+    width: 400px;
+       margin-right: 20px;
+   }

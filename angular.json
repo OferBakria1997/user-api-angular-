@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "frontend-conference-w-angular"
+    }
+  },
+  "defaultProject": "frontend-conference-w-angular",
+  "cli": {
+    "analytics": "f66cbb27-d13d-4e91-b1a9-700563d24e05"
+  }
 }
