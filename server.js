@@ -2,10 +2,10 @@
 const express = require('express');
 const app = express();
 
-app.use(express.static('./dist/frontend-conference-w-angular'));
+app.use(express.static('./dist/gallery'));
 
 app.get('/*', function(req, res) {
-    res.sendFile('index.html', {root: 'dist/frontend-conference-w-angular/'}
+    res.sendFile('index.html', {root: 'dist/gallery/'}
   );
   });
 
